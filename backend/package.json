@@ -1,0 +1,17 @@
+{
+  "name": "collab-markdown-editor-backend",
+  "version": "1.0.0",
+  "description": "Backend for real-time collaborative Markdown editor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "socket.io": "^4.8.3",
+    "uuid": "^9.0.1"
+  }
+}
